@@ -13,13 +13,12 @@ unauthorized access attempts in real time.
 - Log export to ZIP archive
 
 ## Project Structure
-\```
 honeypot-project/
-main.py          # Honeypot server
-dashboard.py     # Web dashboard
-export_logs.py   # Log exporter
-logs/            # Generated at runtime
-\```
+├── main.py          # Honeypot server
+├── dashboard.py     # Web dashboard
+├── export_logs.py   # Log exporter
+└── logs/            # Generated at runtime
+
 
 ## Requirements
 bash
@@ -29,20 +28,19 @@ pip install requests flask
 ## Usage
 
 ### Run the honeypot
-\```bash
+bash
 python3 main.py
-\```
+
 
 ### View web dashboard
-\```bash
+bash
 python3 dashboard.py
 # Open http://localhost:5000
-\```
 
 ### Export logs
-\```bash
+bash
 python3 export_logs.py
-\```
+
 
 ## Dashboard
 Shows real-time stats including:
