@@ -1,0 +1,8 @@
+logs/
+*.db
+*.csv
+*.zip
+*.log
+*.json
+__pycache__/
+venv/
