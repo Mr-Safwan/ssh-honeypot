@@ -15,16 +15,16 @@ unauthorized access attempts in real time.
 ## Project Structure
 \```
 honeypot-project/
-├── main.py          # Honeypot server
-├── dashboard.py     # Web dashboard
-├── export_logs.py   # Log exporter
-└── logs/            # Generated at runtime
+main.py          # Honeypot server
+dashboard.py     # Web dashboard
+export_logs.py   # Log exporter
+logs/            # Generated at runtime
 \```
 
 ## Requirements
-\```bash
+bash
 pip install requests flask
-\```
+
 
 ## Usage
 
